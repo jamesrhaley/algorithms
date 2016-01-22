@@ -1,10 +1,11 @@
 
 import { mergeSort } from './mergeSort/mergeSort'
 import { quickSort } from './quickSort/quickSort3way'
-
+import { flip } from './arrays/flip'
 
 global.msort = mergeSort;
 global.qsort = quickSort;
+global.flip = flip
 
 console.log(
     '\n',

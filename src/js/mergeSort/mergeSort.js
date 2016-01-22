@@ -1,4 +1,4 @@
-import { insertionSort as miniSort } from '../insertionSort'
+import { insertionSort as miniSort } from '../helpers'
 
 
 function merge(array, copy, start, mid, end, comp) {

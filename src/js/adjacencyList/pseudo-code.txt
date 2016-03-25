@@ -1,0 +1,51 @@
+index = -1
+nodeIndex = 0
+counter = 0
+Map
+
+stack
+
+nodeList
+
+for each edge in edgeList
+    update edge properties #maybe
+    while counter < 2
+        if counter % 2 is 0 or not
+            # make a function
+            get even or odd key of edge
+            for Map
+                if not key in Map
+                    Map(key, ++index)
+                    nodeIndex = index
+                else:
+                    nodeIndex = May get key value
+
+            # make a function
+            for edge
+                if counter % 2 is 0
+                    edge soure = nodeIndex
+                else
+                    edge target = nodeIndex
+        counter++
+
+    # make a function
+    #for nodeList
+    while counter < 4
+        for source/target in edge get nodeIndex
+            if nodeList.length <= nodeIndex
+                new node
+                if counter % 2 is 0
+                    node targetlink append edge
+                else 
+                    node sourcelink append edge
+                nodeList append node
+
+            else
+                if counter % 2 is 0
+                    node[nodeIndex] targetlink append edge
+                else 
+                    node[nodeIndex] sourcelink append edge
+        counter++
+
+    counter = 0
+
